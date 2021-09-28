@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body form
+{
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    background-color: #BA4A00;
+    border-radius: 35px;
+}
+
+#nameicon{
+    padding-right: 10px;
+}
+
+form{
+    margin-top: 5rem;
+    margin-left: 22rem;
+}
+
+
+
+.inputs{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
+
+form .firstcolumn .ffirstRow , .fsecondRow
+{
+    padding: 20px 10px 20px 10px;
+    width: 95%;
+   /* background-color: red;*/
+    color: white;
+}
+form .secondcolumn .sfirstRow , .ssecondRow , .sthirdRow
+{
+    padding: 20px 10px 20px 10px;
+   /*background-color: blue;*/
+   width: 95%;
+    color: white;
+}
+form .thirdcolumn .tfirstRow , .tsecondRow , .tthirdRow
+{
+    padding: 20px 10px 20px 10px;
+    /*background-color: teal;*/
+    width: 95%;
+    color: white;
+}
+
+input[type = text] , input[type = password] ,  input[type = email]
+{
+        width : 95%;
+		padding : 10px 20px;
+		margin : 8px 0px;
+		border-radius : 5px;
+        border: none;
+
+        font-size: 15px;
+}
+
+
+
+select, #age
+{
+    width : 45%;
+    padding : 10px 20px;
+    margin : 8px 0px;
+    border-radius : 5px;
+    border: none;
+    font-size: 15px;
+
+    margin-left: 2rem;
+} 
+
+form label
+{
+    padding-left: 10px;
+    color: white;
+}
+form #submitbtn
+{
+    margin-top: 10px;
+    background-color: #BA4A00;
+    font-weight: bold;
+    font-size: 16px;
+    width: 150px;
+    padding: 12px 9px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+form .confirm
+{
+    margin-left: 18rem;
+}
+
+form #submitbtn:hover
+{
+    color: #BA4A00;
+    background-color: white;  
+    font-size: 18px;
+    transition: .3s;
+}

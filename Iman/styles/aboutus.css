@@ -1,0 +1,106 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../images/bodyn.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.haheading {
+  padding: 50px 0px 0px 50px;
+  /*border: 1px solid black;*/
+  font-size: 30px;
+  opacity: 0.6;
+}
+
+.haheading a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+}
+
+.haheading a:hover {
+  color: rgb(192, 161, 22);
+  opacity: 5;
+}
+
+.abheading {
+  padding: 30px 300px 50px 300px;
+  /*border: 1px solid black;*/
+}
+
+.abheading h3 {
+  color: rgb(180, 157, 28);
+  font-size: 40px;
+  letter-spacing: 3px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(175, 141, 77);
+}
+
+.abheading p {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  text-align: center;
+  transition: 0.5s all ease-in-out;
+}
+
+.abheading p:hover {
+  transform: scale(1.05);
+}
+.header {
+  padding-left: 10%;
+  text-align: left;
+  /*background: white;*/
+  color: black;
+  font-size: 20px;
+  font-size: 25px;
+  /*border-radius:40px;*/
+  opacity: 0.5;
+  transition: 0.5s all ease-in-out;
+}
+
+.header:hover {
+  opacity: 1;
+  transform: scale(1.001);
+}
+
+.texth {
+  width: 50%;
+  text-align: justify;
+  color: red;
+  padding-top: 10%;
+}
+
+.tablehead {
+  color: #deb887;
+  border-bottom: 1px solid black;
+  /*border-letter-spacing:10px;*/
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+
+.zoom {
+  transition: 0.5s all ease-in-out;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.text {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
