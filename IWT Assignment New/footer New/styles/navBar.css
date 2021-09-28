@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+h2{
+    margin-top: 5px;
+    border: 5px white;
+    text-align: center;
+    color: white;
+    background-color: #3B3B3B;
+}
+
+
+.navbar
+{
+    width: 100%;
+    display: flex;
+    margin-right: 15px;
+    border-radius: 22px;
+    background-color: #3B3B3B;
+    justify-content: space-between;
+}
+.navbarname,.navBtns
+{
+    width: 20%;
+    
+}
+.navbarname
+{
+    margin-top: 18px;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+.navbarname p, #nameicon 
+{
+    font-size: 18px;
+    padding-left: 5px;
+    margin-top: 4.6px;
+    padding-right: 5px;
+    color: white;
+}
+.navBarTitles
+{
+    margin-top: 10px;
+    margin-left: 5rem;    
+}
+.navtitlesicons i
+{
+    background-color: white;
+    color: #3B3B3B;
+    padding: 10px 13px 10px 13px;
+   font-size: 30px;
+   border-radius: 25px;
+   margin-right: 15px;
+}
+.navtitleNames label
+{
+    margin-left: 7px;
+    font-size: 13px;
+    padding-right: 10px;
+    color: white;
+}
+.navbar{
+    display: flex;
+}
+.navBtns
+{
+  
+    width: 700px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.navbarname i:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.navtitlesicons i:hover
+{
+    color: white;
+    background-color: #3B3B3B;
+}
+
+.navBtns a
+{
+    font-size: 1.4rem;
+    border-radius: .5rem;
+    padding: .4rem 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navBtns a.active,
+
+.navBtns a:hover
+{
+    background-color: white;
+    color: #3B3B3B;
+    transition: .4s;
+}
+
+/*navBar End*/

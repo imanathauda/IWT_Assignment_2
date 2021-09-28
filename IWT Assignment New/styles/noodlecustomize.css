@@ -1,0 +1,173 @@
+h2{
+    margin-top: 5px;
+    border: 5px white;
+    text-align: center;
+    color: white;
+    background-color: #BA4A00;
+}
+
+.container{
+    width: 80%;
+    margin-left: 6.5rem;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.container .imageDiv img
+{
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.items
+{
+    background-color: red;
+    width: 80%;
+    margin-left: 6.5rem;
+    display: flex;
+}
+
+.items img
+{
+    padding: 10px 8px;
+    width: 200px;
+    height: 120px;
+}
+
+.container .imageDiv , .titleDiv{
+    width: 50%;
+}
+
+.container .titleDiv{
+    margin-top: 2rem;
+}
+
+.titleDiv
+{
+    color: white;
+    font-size: 25px;
+    padding: 15px 5px 5px 15px;
+}
+
+.titleDiv select , option
+{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #BA4A00;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    margin-top: 2rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+}
+
+.titleDiv i{
+    margin-right: 10px;
+}
+
+.titleDiv button 
+{
+    width: 35%;
+    border-radius: 10px;
+    background-color: #BA4A00;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    margin-top: 2rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 6px;
+}
+
+.titleDiv select:hover,button:hover
+{
+    background-color: white;
+    color: #BA4A00;
+    transition: .3s;
+}
+
+.titleDiv input[type = number]
+{
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color: #BA4A00;
+    width: 15%;
+    margin-left: 15px;
+    padding: 10px 5px 10px 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.imageDiv button
+{
+    background: none;
+    border: none
+}
+
+.imageDiv button i
+{
+    background-color: ;
+    border: none;
+    color: white;
+    font-size: 25px;
+    background: none;
+}
+
+.imageDiv img:hover ,.titleDiv{
+    border-radius: 15px;
+    width: 650px;
+    height: 400px;
+    transition: .6s;
+    z-index: 5;
+    border: none;
+}
+
+.rating
+{
+    padding: 10px 15px 10px 15px;
+    width: 25%;
+    display: block;
+    margin-left: 10rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rating  input
+{
+   
+    display: none;
+}
+
+
+.rating .stars label
+{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 7px;
+    float: right;
+    transition: all .4s ease;
+}
+input:not(:checked)~label:hover,
+input:not(:checked)~label:hover~label{
+    color: #BA4A00;
+    
+}
+
+input#rate5:checked~label,
+input#rate4:checked~label,
+input#rate3:checked~label,
+input#rate2:checked~label,
+input#rate1:checked~label
+{
+    color: #BA4A00;
+}
+
