@@ -1,0 +1,172 @@
+
+.cuisineselection h1
+{
+    text-align: center;
+    color: white;
+    padding: 10px 8px;
+}
+
+
+.search
+{
+    border-radius: 22px;
+    width: 100%;
+    color: white;
+    margin: 5px auto;
+    padding: 4px;
+    text-align: right;
+    background-color:#BA4A00 ;
+}
+
+.search input
+{
+    width: 20%;
+    padding: 8px 3px;
+    font-size: 15px;
+    border-radius: 25px;
+    text-align: center;
+    border: none;
+    font-weight: bolder;
+    color:#BA4A00 ;
+}
+
+.search button
+{
+    padding: 10px 5px;
+    border-radius: 15px;
+    width: 70px;
+    background-color: #BA4A00;
+    border: none;
+}
+
+.search button i
+{
+    font-size: 20px;
+    color: white;
+    text-align:center;
+}
+
+.coverImage
+{
+    background-image: url(../Images/backblur.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 350px;
+    padding: 10% 0;
+}
+
+.coverImage h2,h3,h1
+{
+    margin-left: 10px ;
+    color: white;
+}
+
+.coverImage a
+{
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #BA4A00;
+    padding: 20px;
+}
+.cuisineselection .containerOne,.containerTwo{
+   /* background-color: blue;*/
+    padding: 15px;
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+.cuisineselection .containerOne .boxOne,
+.cuisineselection .containerTwo .boxOne
+{
+   /* background-color: red;*/
+    border: 1px solid white;
+    width: 25%;
+    min-height: 200px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.img-res
+{
+        z-index: -1;
+        width: 100%;
+}
+
+.float-container
+{
+    position: relative;
+}
+
+.containerOne a,
+.containerTwo a
+{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.float-text
+{
+    position: absolute;
+    bottom: 100px;
+    left: 25%;
+}
+
+.containerOne a:hover,
+.containerTwo a:hover
+{
+    padding-bottom: 35px;
+    transition: .7s;
+}
+
+.second
+{
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 50%;
+    color: #3B3B3B;
+    font-size: 25px;
+}
+
+.second h2
+{
+    color: #BA4A00;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+
+.third
+{
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 50%;
+    color: white;
+    font-size: 25px;
+
+    background-image: url(../Images/backblur.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 350px;
+    padding: 10% 0;
+    width: 100%;
+}
+
+.four
+{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin: 1rem auto;
+    color: #3B3B3B;
+}
+
+.four .icon
+{
+    width: 30%;
+}
