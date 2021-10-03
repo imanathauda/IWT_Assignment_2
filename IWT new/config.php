@@ -1,6 +1,6 @@
 <?php 
 
- $server = "localhost:3307";
+ $server = "localhost";
  $user = "root";
  $pass = "";
  $database = "login_register";
