@@ -1,0 +1,58 @@
+
+body
+{
+    background-image: url(../Images/adminback.jpg);
+    color:white;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    justify-content: center;
+    text-align: center;
+}
+
+.managerUser
+{
+    margin-top: 1rem;
+    padding: 10px;
+    /*background-color: blue;*/
+}
+
+.managerUser table
+{
+    width: 80%;
+    border: 0.5px solid white;
+}
+
+
+
+.managerUser table th,td
+{
+    border-bottom: 0.5px solid white;
+    border-right: 0.5px solid white;
+    padding: 1%;
+    text-align: center;
+}
+
+.managerUser  a
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px 8px;
+    
+}
+
+.managerUser .add
+{
+    margin-left: 10rem;
+    background-color: crimson;
+}
+.managerUser .delete
+{
+    background-color:darkred;
+}
+.managerUser .update
+{
+    background-color:teal;
+}

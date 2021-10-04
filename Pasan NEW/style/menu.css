@@ -1,0 +1,117 @@
+
+.cuisineselection h1
+{
+    text-align: center;
+    color: white;
+    padding: 10px 8px;
+}
+
+
+
+body{
+    background-image: url(../Images/menuback.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.cuisineselection .containerOne,.containerTwo{
+   /* background-color: blue;*/
+    padding: 15px;
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+.cuisineselection .containerOne .boxOne
+{
+   /* background-color: red;*/
+    border: 1px solid white;
+    width: 25%;
+    min-height: 200px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.img-res
+{
+        z-index: -1;
+        width: 100%;
+}
+
+.float-container
+{
+    position: relative;
+}
+
+.containerOne a,
+.containerTwo a
+{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.float-text
+{
+    position: absolute;
+    bottom: 100px;
+    left: 25%;
+}
+
+.containerOne a:hover,
+.containerTwo a:hover
+{
+    padding-bottom: 35px;
+    transition: .7s;
+}
+
+.second
+{
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 50%;
+    color: #3B3B3B;
+    font-size: 25px;
+}
+
+.second h2
+{
+    color: #BA4A00;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+
+.third
+{
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 50%;
+    color: white;
+    font-size: 25px;
+
+    background-image: url(../Images/backblur.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 350px;
+    padding: 10% 0;
+    width: 100%;
+}
+
+.four
+{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin: 1rem auto;
+    color: #3B3B3B;
+}
+
+.four .icon
+{
+    width: 30%;
+}
+
